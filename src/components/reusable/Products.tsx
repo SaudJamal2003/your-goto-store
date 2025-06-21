@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { urlForImage } from "../../../sanity/lib/image";
 
-export default function Product({
+export default function Products({
   imgSrc,
   productName,
   productPrice,

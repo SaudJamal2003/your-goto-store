@@ -1,6 +1,6 @@
 import React from "react";
 // import Product from "@/components/reusable/Product";
-import Product from "../../../components/reusable/Product";
+import Products from "../../../components/reusable/Products";
 import { client } from "@/lib/sanityClient";
 import { IProduct } from "@/lib/types";
 
@@ -29,7 +29,7 @@ export default async function AllProducts() {
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-10">
         {data.map((product, index) => (
-          <Product
+          <Products
             key={product._id + index}
             imgSrc={product.image}
             productName={product.title}
