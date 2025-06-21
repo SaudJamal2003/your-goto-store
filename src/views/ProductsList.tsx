@@ -2,7 +2,6 @@
 import React from "react";
 import { client } from "@/lib/sanityClient";
 import { urlForImage } from "../../sanity/lib/image";
-import Product from "@/components/reusable/Product";
 import { IProduct } from "@/lib/types";
 import { Carousel } from "@trendyol-js/react-carousel";
 import CarouselProducts from "@/components/reusable/CarouselProducts";
