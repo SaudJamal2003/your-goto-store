@@ -1,5 +1,6 @@
 import React from "react";
-import Product from "@/components/reusable/Product";
+// import Product from "@/components/reusable/Product";
+import Product from "../../../components/reusable/Product";
 import { client } from "@/lib/sanityClient";
 import { IProduct } from "@/lib/types";
 
